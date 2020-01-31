@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d67a4fa32120be4fba7f1c40ed73c27, type: 3}
+  m_Name: CheckMapOption
+  m_EditorClassIdentifier: 
+  storyText: "\rThe map says that in in the north you will find the book. But you
+    don't know how long it will take. What do you do ?\r\n1.Keep walking\r\n2.See
+    if there any supplies around"
+  nextStates:
+  - {fileID: 11400000, guid: eeaf9ae33cf7362499679bfdbd6088d8, type: 2}
+  - {fileID: 11400000, guid: f2cef0817b18c1d448f87dd22e6ed7db, type: 2}

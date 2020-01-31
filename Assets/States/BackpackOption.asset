@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d67a4fa32120be4fba7f1c40ed73c27, type: 3}
+  m_Name: BackpackOption
+  m_EditorClassIdentifier: 
+  storyText: "In the backpack are a water bottle, and a map.\r\nWhat do you do ?\r\n1.Drink
+    the water bottle\r\n2.Check the map"
+  nextStates:
+  - {fileID: 11400000, guid: b8d05bc02cdf2c242b2a7cc48d83b3e9, type: 2}
+  - {fileID: 11400000, guid: 97b28c1faa7a48046afa13384bdd9cd0, type: 2}

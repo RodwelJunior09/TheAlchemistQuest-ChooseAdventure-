@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d67a4fa32120be4fba7f1c40ed73c27, type: 3}
+  m_Name: KeepWalkingOption
+  m_EditorClassIdentifier: 
+  storyText: "You have keep walking. And you found a mysterious symbol in a familiar
+    ancient structure.\r\nWhat do you do ? \r\n1. Go Inside\r\n2. Keep walking"
+  nextStates:
+  - {fileID: 11400000, guid: 85128452a5a2bec4c8e3fe5ddb9b797e, type: 2}
+  - {fileID: 11400000, guid: 5711823baa8dea54685260708293d23e, type: 2}

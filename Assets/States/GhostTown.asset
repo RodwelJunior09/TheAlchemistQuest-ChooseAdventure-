@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d67a4fa32120be4fba7f1c40ed73c27, type: 3}
+  m_Name: GhostTown
+  m_EditorClassIdentifier: 
+  storyText: "You are in the town but there's people, and you heard that there's a
+    book that contains a lot of secrets, at the south of the town.\r\n1. Go to where
+    the people are saying it is the book.\r\n2. Check if in your backpack are a map."
+  nextStates:
+  - {fileID: 11400000, guid: 02eca8ed339267c4fbd60d829ed117bb, type: 2}
+  - {fileID: 11400000, guid: cbb405507e4ff8a45b655c2217fb9e88, type: 2}
